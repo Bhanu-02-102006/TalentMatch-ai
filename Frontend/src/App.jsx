@@ -6,7 +6,7 @@ import { CandidateDashboard } from "./components/CandidateDashboard";
 import { RecruiterDashboard } from "./components/RecruiterDashboard";
 import { ChatbotWidget } from "./components/ChatbotWidget";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://talentmatch-ai.onrender.com/api";
 
 function App() {
   // Global States
