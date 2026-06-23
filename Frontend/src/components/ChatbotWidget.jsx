@@ -35,7 +35,7 @@ export function ChatbotWidget({ user, role }) {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:10000/chat", {
+      const res = await fetch("https://talentmatch-ai-chatbot.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -101,7 +101,7 @@ export function ChatbotWidget({ user, role }) {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:10000/chat", {
+      const res = await fetch("https://talentmatch-ai-chatbot.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
