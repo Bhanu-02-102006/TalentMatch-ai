@@ -1,10 +1,24 @@
-# TalentMatch AI 🚀
+# 🚀 TalentMatch AI – Intelligent Recruitment & Career Copilot
 
-### AI-Powered Recruitment, Career Guidance & Skill Matching Platform
-
-TalentMatch AI is a full-stack recruitment ecosystem that connects candidates and recruiters through AI-driven skill analysis, intelligent job matching, resume parsing, career guidance, application tracking, and scam job detection. The platform enables candidates to discover opportunities aligned with their skills while helping recruiters identify qualified applicants efficiently.
+> An AI-powered recruitment ecosystem that connects candidates and recruiters through intelligent skill analysis, resume parsing, career guidance, job matching, application tracking, and scam job detection.
 
 🌐 **Live Demo:** https://skillmatch-gamma.vercel.app/
+
+---
+
+# 📌 Overview
+
+TalentMatch AI is a full-stack MERN application designed to modernize the recruitment process by leveraging Artificial Intelligence. The platform helps candidates discover opportunities aligned with their skills while enabling recruiters to efficiently identify qualified applicants.
+
+By combining AI-powered resume analysis, intelligent job matching, career guidance, application management, and scam detection, TalentMatch AI delivers a complete career development and recruitment solution.
+
+---
+
+# 🎯 Problem Statement
+
+Traditional job portals focus primarily on job listings and applications, offering limited career guidance and skill analysis. Candidates often struggle to identify skill gaps, discover suitable opportunities, and avoid fraudulent job postings.
+
+TalentMatch AI bridges this gap by integrating AI-powered career assistance, skill matching, recruiter tools, and scam detection into a single platform, improving both hiring efficiency and candidate success.
 
 ---
 
@@ -12,81 +26,82 @@ TalentMatch AI is a full-stack recruitment ecosystem that connects candidates an
 
 ## 👨‍💼 Candidate Portal
 
-### Resume Analysis & Skill Mapping
+### 📄 Resume Analysis & Skill Mapping
 
 * Upload PDF resumes for AI-powered analysis
 * Automatic skill extraction and categorization
-* Interactive skill mapping dashboard
 * Resume-based career recommendations
 * Personalized learning roadmaps
+* Interactive skill visualization dashboard
 
-### AI Career Assistant
+### 🤖 AI Career Assistant
 
 * AI-powered career guidance chatbot
-* Technology learning paths
+* Technology learning recommendations
 * Interview preparation assistance
-* Career planning recommendations
-* Skill development suggestions
+* Career planning support
+* Personalized skill development suggestions
 
-### Job Discovery & Applications
+### 💼 Job Discovery & Applications
 
 * Browse available opportunities
 * Apply directly through the platform
-* Track applied jobs
+* Track application status
 * Personalized job recommendations
-* Skill-based job matching
+* Skill-based opportunity matching
 
-### Profile Management
+### 👤 Profile Management
 
 * Secure user authentication
-* Candidate profile dashboard
+* Candidate dashboard
 * Resume management
-* Skills visualization and tracking
+* Skills tracking and visualization
 
 ---
 
 ## 🏢 Recruiter Portal
 
-### Job Posting Management
+### 📢 Job Posting Management
 
 * Recruiter registration and authentication
 * Create and manage job postings
 * Define required skills and qualifications
 * Publish opportunities to candidates
-* Track applications
+* Track candidate applications
 
-### Applicant Management
+### 📊 Applicant Management
 
 * View candidate applications
-* Analyze candidate skills
-* Evaluate applicant-job compatibility
-* Manage recruitment workflow
+* Analyze applicant skills
+* Evaluate candidate-job compatibility
+* Streamline recruitment workflows
 
 ---
 
-## 🤖 AI-Powered Features
+# 🤖 AI-Powered Features
 
-### Resume Parsing & Skill Extraction
+## 📄 Resume Parsing & Skill Extraction
 
 * Automated resume analysis
 * Technical skill identification
 * Technology stack extraction
 * Candidate profile generation
 
-### Intelligent Job Matching
+## 🎯 Intelligent Job Matching
 
 * Match candidate skills with job requirements
-* Recommend suitable opportunities
+* Recommend relevant opportunities
 * Improve hiring efficiency
+* Reduce recruiter screening effort
 
-### AI Career Guidance Chatbot
+## 💬 AI Career Guidance Chatbot
 
 * Career counseling assistance
 * Learning roadmap generation
 * Interview preparation support
 * Industry-specific recommendations
 
-### Scam Job Detection
+## 🛡️ Scam Job Detection
 
 * Detect suspicious job postings
 * Analyze job descriptions for fraud indicators
@@ -95,16 +110,57 @@ TalentMatch AI is a full-stack recruitment ecosystem that connects candidates an
 
 ---
 
+# 📊 Project Statistics
+
+* 👥 2 User Roles (Candidate & Recruiter)
+* 🔐 JWT-Based Authentication System
+* 🤖 4 AI-Powered Modules
+* 📄 Resume Parsing Engine
+* 🎯 Intelligent Skill Matching System
+* 🛡️ Scam Detection Module
+* 📡 15+ REST API Endpoints
+* 💼 End-to-End Recruitment Workflow
+* 🌐 Full-Stack MERN Architecture
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                    ┌───────────────────┐
+                    │   React Frontend  │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ Express.js Backend│
+                    └─────────┬─────────┘
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        ▼                     ▼                     ▼
+
+ ┌─────────────┐      ┌─────────────┐      ┌─────────────┐
+ │ MongoDB     │      │ Gemini AI   │      │ JWT Auth    │
+ │ Atlas       │      │ Services    │      │ Security    │
+ └─────────────┘      └─────────────┘      └─────────────┘
+                              │
+                              ▼
+          Resume Analysis • Career Guidance
+          Skill Matching • Scam Detection
+```
+
+---
+
 # 🔐 Security Features
 
-### Authentication & Authorization
+## Authentication & Authorization
 
 * JWT Authentication
 * Role-Based Access Control
 * Protected Routes
 * Secure Session Management
 
-### Data Protection
+## Data Protection
 
 * Password Hashing using bcrypt
 * Secure API Communication
@@ -126,6 +182,8 @@ TalentMatch AI is a full-stack recruitment ecosystem that connects candidates an
 | Axios            | API Communication |
 | React Icons      | UI Components     |
 
+---
+
 ## Backend
 
 | Technology | Purpose              |
@@ -133,12 +191,16 @@ TalentMatch AI is a full-stack recruitment ecosystem that connects candidates an
 | Node.js    | Runtime Environment  |
 | Express.js | REST API Development |
 
+---
+
 ## Database
 
 | Technology    | Purpose           |
 | ------------- | ----------------- |
 | MongoDB Atlas | Database          |
 | Mongoose      | Database Modeling |
+
+---
 
 ## Artificial Intelligence
 
@@ -149,12 +211,16 @@ TalentMatch AI is a full-stack recruitment ecosystem that connects candidates an
 | Google Gemini AI | Skill Extraction |
 | Google Gemini AI | Scam Detection   |
 
+---
+
 ## Security
 
 | Technology | Purpose             |
 | ---------- | ------------------- |
 | JWT        | Authentication      |
 | bcrypt     | Password Encryption |
+
+---
 
 ## Deployment
 
@@ -167,70 +233,30 @@ TalentMatch AI is a full-stack recruitment ecosystem that connects candidates an
 
 # 📁 Project Structure
 
-```text
+```bash
 TalentMatchAI/
 │
 ├── frontend/
-│   │
+│   ├── public/
 │   ├── src/
-│   │   │
 │   │   ├── components/
-│   │   │   ├── Sidebar.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── ProtectedRoute.jsx
-│   │   │   └── Loader.jsx
-│   │   │
 │   │   ├── pages/
-│   │   │   ├── AuthPage.jsx
-│   │   │   ├── CandidateDashboard.jsx
-│   │   │   ├── RecruiterDashboard.jsx
-│   │   │   ├── Profile.jsx
-│   │   │   ├── AppliedJobs.jsx
-│   │   │   ├── PostJob.jsx
-│   │   │   └── Applicants.jsx
-│   │   │
 │   │   ├── context/
-│   │   │   └── AuthContext.jsx
-│   │   │
 │   │   ├── services/
-│   │   │   ├── authService.js
-│   │   │   ├── jobService.js
-│   │   │   ├── geminiService.js
-│   │   │   └── scamDetection.js
-│   │   │
 │   │   ├── styles/
-│   │   │
 │   │   ├── App.jsx
 │   │   └── main.jsx
-│   │
 │   └── package.json
 │
 ├── backend/
-│   │
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Job.js
-│   │   └── Application.js
-│   │
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   ├── userRoutes.js
-│   │   ├── jobRoutes.js
-│   │   └── applicationRoutes.js
-│   │
-│   ├── middleware/
-│   │   ├── authMiddleware.js
-│   │   └── roleMiddleware.js
-│   │
-│   ├── services/
-│   │   ├── geminiService.js
-│   │   ├── resumeParser.js
-│   │   ├── skillMatching.js
-│   │   └── scamDetection.js
-│   │
 │   ├── config/
-│   │   └── db.js
-│   │
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── uploads/
+│   ├── utils/
+│   ├── chatbot_ai/
 │   ├── server.js
 │   └── package.json
 │
@@ -253,52 +279,6 @@ TalentMatchAI/
 | /applied-jobs | Applied Jobs          |
 | /post-job     | Recruiter Job Posting |
 | /applicants   | Applicant Management  |
-
----
-
-# 🔌 API Endpoints
-
-## Authentication
-
-| Method | Endpoint           | Description    | Auth Required |
-| ------ | ------------------ | -------------- | ------------- |
-| POST   | /api/auth/register | Register User  | No            |
-| POST   | /api/auth/login    | Login User     | No            |
-| GET    | /api/auth/profile  | Get Profile    | Yes           |
-| PUT    | /api/auth/profile  | Update Profile | Yes           |
-
----
-
-## Resume & Skills
-
-| Method | Endpoint           | Description     |
-| ------ | ------------------ | --------------- |
-| POST   | /api/resume/upload | Upload Resume   |
-| POST   | /api/resume/parse  | Extract Skills  |
-| GET    | /api/skills        | Get User Skills |
-
----
-
-## Jobs
-
-| Method | Endpoint          | Description  |
-| ------ | ----------------- | ------------ |
-| GET    | /api/jobs         | Get Jobs     |
-| POST   | /api/jobs/create  | Create Job   |
-| POST   | /api/jobs/apply   | Apply Job    |
-| GET    | /api/jobs/applied | Applied Jobs |
-| DELETE | /api/jobs/remove  | Remove Job   |
-
----
-
-## AI Services
-
-| Method | Endpoint         | Description        |
-| ------ | ---------------- | ------------------ |
-| POST   | /api/chat        | AI Career Guidance |
-| POST   | /api/job-match   | Skill Matching     |
-| POST   | /api/scam-detect | Scam Detection     |
-| POST   | /api/roadmap     | Learning Roadmap   |
 
 ---
 
@@ -356,35 +336,51 @@ GEMINI_API_KEY=your_gemini_api_key
 
 ---
 
+# 🏆 Key Accomplishments
+
+✔ Developed a full-stack MERN recruitment platform with role-based authentication.
+
+✔ Integrated Google Gemini AI for resume analysis, career guidance, skill extraction, and scam detection.
+
+✔ Built an intelligent skill-matching system to connect candidates with relevant opportunities.
+
+✔ Implemented secure JWT authentication and protected API architecture.
+
+✔ Designed recruiter and candidate dashboards for end-to-end hiring workflows.
+
+✔ Deployed a production-ready application using modern cloud hosting solutions.
+
+---
+
 # 📸 Screenshots
 
-## Landing Page
+### Landing Page
 
 (Add Screenshot)
 
-## Candidate Dashboard
+### Candidate Dashboard
 
 (Add Screenshot)
 
-## Resume Skill Mapping
+### Resume Analysis & Skill Mapping
 
 (Add Screenshot)
 
-## AI Career Assistant
+### AI Career Assistant
 
 (Add Screenshot)
 
-## Recruiter Dashboard
+### Recruiter Dashboard
 
 (Add Screenshot)
 
-## Job Posting Module
+### Job Posting Module
 
 (Add Screenshot)
 
 ---
 
-# 🎯 Future Enhancements
+# 🔮 Future Enhancements
 
 * AI Mock Interviews
 * ATS Resume Scoring
@@ -394,21 +390,15 @@ GEMINI_API_KEY=your_gemini_api_key
 * Learning Platform Integration
 * Advanced Fraud Detection
 * Skill Gap Analytics
+* Voice-Based Career Assistant
+* AI Interview Feedback System
 
 ---
 
-# 📊 Project Highlights
+# 📈 Resume Highlights
 
-* AI-Powered Recruitment Platform
-* Resume Parsing & Skill Extraction
-* Intelligent Job Matching
-* AI Career Guidance Chatbot
-* Scam Job Detection
-* Recruiter & Candidate Dashboards
-* Role-Based Authentication
-* Full-Stack MERN Architecture
-* Responsive Modern UI
-* Secure JWT Authentication
+* Developed an AI-powered recruitment and career guidance platform using React, Node.js, Express.js, MongoDB Atlas, and Google Gemini AI.
+* Implemented resume parsing, skill extraction, intelligent job matching, and scam detection modules.
+* Built secure authentication and recruiter management systems supporting end-to-end hiring workflows.
 
----
 
