@@ -231,39 +231,6 @@ TalentMatch AI bridges this gap by integrating AI-powered career assistance, ski
 
 ---
 
-# 📁 Project Structure
-
-```bash
-TalentMatchAI/
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── context/
-│   │   ├── services/
-│   │   ├── styles/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── package.json
-│
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── uploads/
-│   ├── utils/
-│   ├── chatbot_ai/
-│   ├── server.js
-│   └── package.json
-│
-├── README.md
-└── .env
-```
-
 ---
 
 # 📱 Application Routes
